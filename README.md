@@ -9,8 +9,8 @@ More info on the board here:
 - [GitHub repository](https://github.com/Xinyuan-LilyGO/TTGO-T-Display)
 
 The demo setup for this board initializes the display and clears it to all red pixels.
-It took me some time to figure everything out, but got some basic hints from the [project blog of Lily Mara](https://lilymara.xyz/posts/2023/01/images-esp32/).
-Much of the code in this blog post is outdated though, which is why I created this project.
+It took me some time to figure everything out, but thankfully got some hints from the [project blog of Lily Mara](https://lilymara.xyz/posts/2023/01/images-esp32/).
+Much of the code in this blog post is outdated though, which is why I created this project with code that Works For Me, Today (tm).
 Feel free to use it as a basis for your own projects.
 
 ## Pins
