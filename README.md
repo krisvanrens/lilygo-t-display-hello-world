@@ -1,7 +1,7 @@
 # LilyGO T-Display
 
 This repository shows a "Hello, world!" basic example in Rust for the ESP32-based LilyGO T-Display MCU board.
-This is a revision 3.0 ESP32, WiFi and Bluetooth-enabled board with a 1.14" IPS LCD of 135x240 pixels driven by an ST7789V.
+This board has a revision 3.0 ESP32, WiFi, Bluetooth, and a 1.14" IPS LCD of 135x240 pixels driven by an ST7789V.
 
 More info on the board here:
 
@@ -49,6 +49,6 @@ cargo generate https://github.com/esp-rs/esp-idf-template cargo
 
 ## Re-flash original test firmware
 
-To re-flash the demo firmware that came with the board, clone the [LilyGO repository](https://github.com/Xinyuan-LilyGO/TTGO-T-Display) and use `esptool.py` (see [here](https://docs.espressif.com/projects/esptool/en/latest/esp32/):
+To re-flash the demo firmware that came with the board, clone the [LilyGO repository](https://github.com/Xinyuan-LilyGO/TTGO-T-Display) and use `esptool.py` (see [here](https://docs.espressif.com/projects/esptool/en/latest/esp32/)):
 
 `esptool.py -p /dev/ttyACM0 -b 460800 --before default_reset --after hard_reset --chip esp32 write_flash --flash_mode dio --flash_size detect --flash_freq 40m 0x0 TTGO-T-Display/firmware/firmware.bin`
